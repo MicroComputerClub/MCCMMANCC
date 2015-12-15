@@ -1,12 +1,6 @@
 [
-  {"speaker": "@mactkg", "title": "Nakano.LT"},
-  {"speaker": "TT", "title": "ヒューマンコンピュータ画像処理入門"},
-  {"speaker": "shuto_fms", "title": "最近のMMD to C4D事情"},
-  {"speaker": "Shiso", "title": "たのしいvvvv"},
-  {"speaker": "Kento Nakamura", "title": "紹介Lisp"},
-  {"speaker": "いるかアイス", "title": "10/25にM3に初参戦した話"},
-  {"speaker": "@3846masa", "title": "僕がここ半年追っていたJSの話"},
-  {"speaker": "fms_TKD", "title": "Processingで音をいじる"},
-  {"speaker": "yota", "title": "design engineerのcreation methods"},
-  {"speaker": "@wadawadatnp", "title": "3DEqualizer"}
+  {"speaker": "@mactkg", "title": "mactkg"},
+  {"speaker": "@whywaita", "title": "whywaita"},
+  {"speaker": "@icchyr", "title": "icchy"},
+  {"speaker": "@altcolony", "title": "altcolony"}
 ]
