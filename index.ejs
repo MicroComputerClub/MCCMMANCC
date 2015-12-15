@@ -1,0 +1,59 @@
+<% var
+pageTitle = "Welcome";
+pageId = "index";
+pageUrl = "";
+pageDescription = siteDescription;
+%>
+<% include _header %>
+
+<header class="l-header l-section">
+  <div class="l-container">
+    <div class="header-content">
+      <h1><%= siteName %></h1>
+      <h2><%= siteDescription %></h2>
+
+      <a class="btn btn-large" href="https://atnd.org/events/71213"><span>遊びに行く</span></a>
+      <a class="btn btn-large" href="https://docs.google.com/forms/d/1ay7Zz9LNC2VDoFyTOlyi_vJNe_jziK2O2s-ukE4QBKI/viewform"><span>話しに行く</span></a>
+  </div>
+</div>
+</header>
+
+<div class="l-container">
+  <div class="l-row">
+    <div class="l-span6">
+      <h2>What is LT?</h2>
+      <p>LTは<b>Lightning talk</b>の略で、5分であるテーマについてすばやく話す発表方法です。Nakano.LTはLightning Talkのイベントです。あなたが普段取り組んでいることや、考えていることについて気軽に発表してください!</p>
+    </div>
+    <div class="l-span6">
+      <h2>Information</h2>
+      <ul>
+        <li>開催日時: 2015/10/27(Tue) 7:50-8:50</li>
+        <ul>
+          <li>次に授業があるので時間厳守です</li>
+        </ul>
+        <li>会場: 明治大学中野キャンパス 314教室</li>
+        <li>参加対象: 明治大学中野キャンパスに出入りしている人</li>
+        <li>発表時間: 5分間</li>
+        <li>質疑応答: なし</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="l-container">
+  <h2>TimeTable</h2>
+  <table>
+    <tr>
+        <th>Speaker</th><th>Title</th>
+    </tr>
+
+    <% for(var i = 0; i < talks.length; i++) { %>
+    <tr>
+      <td><%= talks[i].speaker %></td>
+      <td><%= talks[i].title %></td>
+    </tr>
+    <% }; %>
+  </table>
+</div>
+
+<% include _footer %>
