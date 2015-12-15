@@ -1,3 +1,7 @@
+Extended by [nakano-lt/004](https://github.com/nakano-lt/004)
+Powered by [Rin 4](http://sanographix.github.io/rin/)
+
+
 # Rin 4
 
 A lean, gulp-based HTML & SASS boilerplate for better front-end coding.
@@ -63,8 +67,8 @@ Rin supports [EJS](http://www.embeddedjs.com/) template. When you edit and save 
 
 Put variables which use for every pages.
 
-Example:	
-	
+Example:
+
 	{
 	  "siteName": "Example Site"
 	}
@@ -74,7 +78,7 @@ Example:
 If you want to use variables for particular single page, put variables into `<% var %>` at each page.
 
 Example:
-	
+
 	<% var
 	pageTitle = "Toppage";
 	%>
@@ -83,7 +87,7 @@ Example:
 	</head>
 
 ### Result
-	
+
 	<head>
 		<title>Toppage - Example Site</title>
 	</head>
