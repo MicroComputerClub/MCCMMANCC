@@ -1,6 +1,11 @@
 [
-  {"speaker": "@mactkg", "title": "mactkg"},
-  {"speaker": "@whywaita", "title": "whywaita"},
-  {"speaker": "@icchyr", "title": "icchy"},
-  {"speaker": "@altcolony", "title": "altcolony"}
+  {"speaker" : "kwzr", "title" : "絵の話か音楽の話"},
+  {"speaker" : "@JA1TYE", "title" : "Raspberry Piでヴォコーダをつくってみた"},
+  {"speaker" : "うし", "title" : "トビタテ！留学のススメ ～情報系のモデルケース紹介～"},
+  {"speaker" : "ヘクト", "title" : "競技プロと大学生活"},
+  {"speaker" : "kyontan", "title" : "未定"},
+  {"speaker" : "nomeaning", "title" : "タイトル未定(MMACTFについてはなす予定)"},
+  {"speaker" : "モンジサン", "title" : "タイトル：声　　発表者：JavaScript"},
+  {"speaker" : "gurapomu", "title" : "未定"},
+  {"speaker" : "3846masa", "title" : "未定"}
 ]

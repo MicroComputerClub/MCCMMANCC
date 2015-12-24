@@ -77,11 +77,12 @@ pageDescription = siteDescription;
       <h2>LT actor</h2>
       <table>
         <tr>
-            <th>Speaker</th><th>Title</th>
+            <th>Order</th><th>Speaker</th><th>Title</th>
         </tr>
 
         <% for(var i = 0; i < talks.length; i++) { %>
         <tr>
+          <td>?</td>
           <td><%= talks[i].speaker %></td>
           <td><%= talks[i].title %></td>
         </tr>

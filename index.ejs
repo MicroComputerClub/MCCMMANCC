@@ -12,9 +12,9 @@ pageDescription = siteDescription;
       <h1><%= siteName %></h1>
       <h2><%= siteDescription %></h2>
 
-      <a class="btn btn-large" href="./tmp.html"><span>遊びに行く</span></a>
-      <a class="btn btn-large" href="./tmp.html"><span>話しに行く</span></a>
-      
+      <a class="btn btn-large" href="https://docs.google.com/forms/d/1Q8-89VKEdu9T2c4Wf_1meM0Y66p6nB8APBsE9K4BcE0/viewform?usp=send_form"><span>参加申し込み</span></a>
+      <a class="btn btn-large" href="https://twitter.com/hashtag/MCCMMANCC?f=tweets&src=hash"><span><i class="fa fa-twitter"></i> #MCCMMANCC</span></a>
+
   </div>
 </div>
 </header>
@@ -77,11 +77,12 @@ pageDescription = siteDescription;
       <h2>LT actor</h2>
       <table>
         <tr>
-            <th>Speaker</th><th>Title</th>
+            <th>Order</th><th>Speaker</th><th>Title</th>
         </tr>
 
         <% for(var i = 0; i < talks.length; i++) { %>
         <tr>
+          <td><%= ? %></td>
           <td><%= talks[i].speaker %></td>
           <td><%= talks[i].title %></td>
         </tr>
