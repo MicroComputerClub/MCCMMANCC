@@ -82,7 +82,7 @@ pageDescription = siteDescription;
 
         <% for(var i = 0; i < talks.length; i++) { %>
         <tr>
-          <td>?</td>
+          <td><%= talks[i].order %></td>
           <td><%= talks[i].speaker %></td>
           <td><%= talks[i].from %></td>
           <td><%= talks[i].title %></td>

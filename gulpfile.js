@@ -47,7 +47,8 @@ var fs = require('fs');
 var json = JSON.parse(fs.readFileSync("site.json")); // parse json
 var talks = JSON.parse(fs.readFileSync("talks.json")); // parse json
 var timetable = JSON.parse(fs.readFileSync("timetable.json")); // parse json
-json.talks = talks;
+// while(_talks.length > 0) talks.push(_talks.splice(Math.floor( Math.random() * _talks.length),1)[0]);
+json.talks = talks.sort(function(a,b){return parseInt(a.order) - parseInt(b.order)});
 json.timetable = timetable;
 gulp.task("ejs", function() {
     gulp.src(['templates/*.ejs','!' + 'templates/_*.ejs']) // Don't build html which starts from underline
